@@ -22,4 +22,4 @@ easier to support.
 - *Open/Close Principle* - you can introduce new types of products into the program without breaking existing client code.
 
 # Cons
-- It may become very complicated as a ton of new subclasses are required to implement the patter.
+- It may become very complicated as a ton of new subclasses are required to implement the pattern.

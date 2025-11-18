@@ -16,4 +16,4 @@ special factory method.
 - The factory method in *RoadLogistics* class will return a *Truck* while the one in *SeaLogisitics* will return a *Ship*.
 - The client code calling the factory method often doesn't see a difference between the actual products returned by the concrete factory methods in each
 sub class, the client just treats all of them as abstract *Transport*.
-- The client know that each object has a *deliver()8/ method, but doesn't have to know the exact implementation.
+- The client knows that each object has a *deliver()* method, but doesn't have to know the exact implementation.

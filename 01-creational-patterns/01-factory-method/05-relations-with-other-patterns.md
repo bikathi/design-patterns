@@ -1,5 +1,5 @@
 - Many software designs begin with Factory Method, as it is less complicated and more customizable via subclasses. It then
-later on moves to more complex but flexible patterns like AbstractFactory, Prototype or Builder,
+later on moves to more complex but flexible patterns like AbstractFactory, Prototype or Builder.
 - AbstractFactory classes are often based on a set of Factory methods but you can also use Prototype to compose the methods on
 these classes.
 - You can use FactoryMethod along with Iterator to let collection subclasses return different types of iterators that are
