@@ -6,7 +6,7 @@
 2. You want to provide users of your library or framework with a way to extend it's internal components
   - For example, imagine that you write an app using an open source UI framework. Your app should have round buttons but
   the framework only provides square ones. You extend the standard *Button* class with glorious *RoundButton* subclass.
-  - It works, but, now, you need to tell the main *UIFramework* class to use the new button subclass instead of the default one
+  - It works, but now, you need to tell the main *UIFramework* class to use the new button subclass instead of the default one
   - To achieve this, you create a subclass *UIWithRoundButtons* from a base framework class, and override it's *createButton()*
   method. The parent method returned *Button* objects, but you make your override return *RoundButton* objects.
  - Now use the *UIWithRoundButtons* class instead of *UIFramework*.

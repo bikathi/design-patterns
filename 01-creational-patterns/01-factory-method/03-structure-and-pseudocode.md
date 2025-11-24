@@ -1,12 +1,12 @@
-# Structure
+s# Structure
 
 - Excluding the client, the design of the factory pattern is made up of four parts:
 
 ![Solution Image](./media/factory-method-structure.png)
 
-1. **Product** declares the common interface for all object we want our factory to produce.
-2. **Concrete Products** the different implementations of the product interface.
-3. **Create class** declares the factory method that returns the products objects. It's return type matches the common interface
+1. **Product** declares the common interface for all objects we want our factory to produce.
+2. **Concrete Products** the different implementations of the *Product* interface.
+3. **Creator class** declares the factory method that returns the products objects. It's return type matches the common interface
 of the products.
 The factory method can be declared as *abstract* to force all subclasses to implement this method, or as an alternative, the base
 factory method can return a default product type.
@@ -16,7 +16,7 @@ as well, usually related to the products. The factory method simply helps to dec
 
 # Pseudocode
 - The example below demonstrates how the Factory Method can be used for creating cross-platform UI elements without coupling the client code to concrete UI classes.
-- Suppose we are creating a Dialog box element that should work on both Windows and Web. THe buttons in the dialog box may
+- Suppose we are creating a Dialog box element that should work on both Windows and Web. The buttons in the dialog box may
 look different, but under the hood, they should work the same way.
 - With the factory method, we don't create a *Dialog* class for each platform. 
 - We instead create a factory method that produces buttons inside the Dialog class.
@@ -55,7 +55,7 @@ class WebDialog extends Dialog is
     method createButton(): Button is
         return new HTMLButton()
         
-// the product interface declares the ops that all concrete products must implement
+// the product interface declares the operations that all concrete products must implement
 interface Button is
     method render()
     method onClick(f)

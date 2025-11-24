@@ -1,12 +1,12 @@
 - The factory method pattern suggests that you replace direct object construction calls (using the *new* operator), with calls to a
 special factory method.
 - The objects will still be called with the *new* operator, but from within the factory method.
-- Objects returned by a factory method are often reffered to as products.
+- Objects returned by a factory method are often reffered to as *products*.
 
 ![Solution Image](./media/problem-chart.png)
 
-- In the subclass, we can override the factory method and to return whatever other class we want.
-- The limitation to this is that, although the subclasses return different types of product, the product must have a common interface / base class.
+- In the subclass, we can override the factory method to return whatever other class we want.
+- The limitation to this is that, although the subclasses return different types of products, the products must have a common interface / base class.
 - The factory method in the base class must also declare it's return type as the interface / base class of the product.
 
 ![Solution Image](./media/common-product-interface.png)
