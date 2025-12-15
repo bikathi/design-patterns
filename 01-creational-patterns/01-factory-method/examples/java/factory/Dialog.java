@@ -5,6 +5,7 @@
  */
 public abstract class Dialog {
 
+    // this method is automatically inheritted by the children of this class
     public void renderWindow() {
         // ... other code ...
 

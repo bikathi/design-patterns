@@ -23,10 +23,15 @@ flexible and efficient.
 3. **Behavioral Patterns** - take care of effective communication and the assignment of responsibilities between objects.
 
 # Map
-# Creational Patterns
+## Creational Patterns
 | Pattern | Problem & Intent | Solution & Pseudocode | Uses & Pattern Relations |  
 | -------- | ------- | -------- | ------- |
-| Factory Pattern | [Problem & Intent](01-creational-patterns/01-factory-method/01-problem-and-intent.md) | [Solution](01-creational-patterns/01-factory-method/02-solution.md), [Pseudocode](01-creational-patterns/01-factory-method/03-structure-and-pseudocode.md) | [Uses](01-creational-patterns/01-factory-method/04-uses-pros-and-cons.md), [Pattern Relations](01-creational-patterns/01-factory-method/05-relations-with-other-patterns.md)  | 
+| Factory Pattern | [Problem & Intent](01-creational-patterns/01-factory-method/01-problem-and-intent.md) | [Solution](01-creational-patterns/01-factory-method/02-solution.md), [Pseudocode](01-creational-patterns/01-factory-method/03-structure-and-pseudocode.md) | [Uses](01-creational-patterns/01-factory-method/04-uses-pros-and-cons.md), [Pattern Relations](01-creational-patterns/01-factory-method/05-relations-with-other-patterns.md)  |
+| Abstract Factory Pattern | [Problem & Intent](01-creational-patterns/02-abstract-factory-method/01-problem-and-intent.md) | [Solution](01-creational-patterns/02-abstract-factory-method/02-solution.md), [Pseudocode](01-creational-patterns/02-abstract-factory-method/03-structure-and-pseudocode.md) | [Uses](01-creational-patterns/02-abstract-factory-method/04-uses-pros-and-cons.md), [Pattern Relations](01-creational-patterns/02-abstract-factory-method/05-relations-with-other-patterns.md)  | 
+| Builder Method | [Problem & Intent](01-creational-patterns/03-builder-method/01-problem-and-intent.md) | [Solution](01-creational-patterns/03-builder-method/02-solution.md), [Pseudocode](01-creational-patterns/03-builder-method/03-structure-and-pseudocode.md) | [Uses](01-creational-patterns/03-builder-method/04-uses-pros-and-cons.md), [Pattern Relations](01-creational-patterns/03-builder-method/05-relations-with-other-patterns.md)  | 
+| Prototype Method | [Problem & Intent](01-creational-patterns/03-prototype-method/01-problem-and-intent.md) | [Solution](01-creational-patterns/03-prototype-method/02-solution.md), [Pseudocode](01-creational-patterns/03-prototype-method/03-structure-and-pseudocode.md) | [Uses](01-creational-patterns/03-prototype-method/04-uses-pros-and-cons.md), [Pattern Relations](01-creational-patterns/03-prototype-method/05-relations-with-other-patterns.md)  | 
+
+
 
 
 # Use And Licensing
