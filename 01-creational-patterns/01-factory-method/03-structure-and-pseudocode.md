@@ -1,4 +1,4 @@
-s# Structure
+# Structure
 
 - Excluding the client, the design of the factory pattern is made up of four parts:
 
@@ -8,6 +8,11 @@ s# Structure
 2. **Concrete Products** the different implementations of the *Product* interface.
 3. **Creator class** declares the factory method that returns the products objects. It's return type matches the common interface
 of the products.
+4. **Concrete creators** override the base factory method so it returns a different type of product.
+
+The factory method doesn't have to return new objects all the time, it can return  existing objects from a cache,
+an object pool or another source.
+
 The factory method can be declared as *abstract* to force all subclasses to implement this method, or as an alternative, the base
 factory method can return a default product type.
 
