@@ -1,4 +1,4 @@
-# Use the adapter class when:
+# Use the adapter pattern when:
 1. You want to use some existing class, but its interface isn't compatible with the rest of your code.
 2. You want to reuse several existing subclasses but lack some functionality that can't be added to the
   superclass.
