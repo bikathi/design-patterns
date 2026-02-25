@@ -4,3 +4,7 @@ Use the Facade pattern when:
    For example, in our video conversion framework, it can be broken down into two layers for video and audio,
    For each layer, you can create a facade and then make the classes of each layer communicate with each other
    via those facades. This approach is very similar to the *Mediator* pattern.
+
+# Pros
+- You can isolate your code from the complexity of a subsystem
+- A facade can become a **god object**, coupled to all classes of an app.
