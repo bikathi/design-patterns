@@ -34,7 +34,7 @@ works with these objects via their abstract interfaces.
 factory class that produces these elements and slightly modify the apps's initialization code so that it initializes with the
 relevant factory when appropriate.
 
-```html
+```h
 // The abstract factory interface declares a set of methods that
 // return different abstract products. These products are called
 // a family and are related by a high-level theme or concept.

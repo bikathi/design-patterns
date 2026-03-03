@@ -25,7 +25,7 @@
 
 ![Solution Image](./media/square-peg-round-hole-adapter.png)
 
-```html
+```h
 // Say you have two classes with compatible interfaces:
 // RoundHole and RoundPeg.
 class RoundHole is

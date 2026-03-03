@@ -25,7 +25,7 @@
 
 ![Solution Image](./media/help-bubbling.png)
 
-```html
+```h
 // The handler interface declares a method for executing a request.
 interface ComponentWithContextualHelp is
     method showHelp()

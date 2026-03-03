@@ -21,7 +21,7 @@
   is working with a simple shape or a compound one.
 - The client can work with very complex object structures without being coupled to concrete classes that form that structure.
 
-```html
+```h
 // The component interface declares common operations for both
 // simple and complex objects of a composition.
 interface Graphic is

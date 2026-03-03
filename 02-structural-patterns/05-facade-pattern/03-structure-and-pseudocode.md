@@ -12,7 +12,7 @@
 # Pseudocode
 In this example, the **Facade** pattern simplifies interaction with a complex video compression framework.
 
-```html
+```h
 // These are some of the classes of a complex 3rd-party video
 // conversion framework. We don't control that code, therefore
 // can't simplify it.

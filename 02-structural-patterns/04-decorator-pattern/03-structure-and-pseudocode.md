@@ -26,7 +26,7 @@ from the disk.
 
 Note that the decorators and data source class implement the same interface, which makes them interchangeable in the client code.
 
-```html
+```h
 // The component interface defines operations that can be
 // altered by decorators.
 interface DataSource is

@@ -10,7 +10,7 @@ method should be the only way of getting the Singleton object.
 - This class doesn't have a public constructor, so the only way to get its object is to call the `getInstance` method.
 - The method caches the first created object and returns it in all subsequent calls.
 
-```html
+```h
 // The Database class defines the `getInstance` method that lets
 // clients access the same instance of a database connection
 // throughout the program.

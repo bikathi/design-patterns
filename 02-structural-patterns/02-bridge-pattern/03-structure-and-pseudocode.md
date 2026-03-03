@@ -25,7 +25,7 @@
   a new remote subclass.
 - The client code links the desired type of remote control with a specicif device object via the remote's constructor.
 
-```html
+```h
 // The "abstraction" defines the interface for the "control"
 // part of the two class hierarchies. It maintains a reference
 // to an object of the "implementation" hierarchy and delegates

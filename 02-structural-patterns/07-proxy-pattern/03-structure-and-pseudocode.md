@@ -21,7 +21,7 @@ video six times, instead of caching and re-using the first video.
 The proxy class implements the same interface as the original downloader and delegates all its work to it. However, it keeps
 track of all downloaded videos and returns the cached result when the app requests the same video multiple times.
 
-```html
+```h
 // The interface of a remote service.
 interface ThirdPartyYouTubeLib is
     method listVideos()

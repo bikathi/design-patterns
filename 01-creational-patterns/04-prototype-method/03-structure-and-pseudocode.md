@@ -19,7 +19,7 @@ a simple name, you can build a much more robust version of the registry.
 - In our example here, all shape classes follow the same interface, which provides a cloning method. A subclass may call the parent's cloning
 method before copying its own field values to the resulting object.
 
-```html
+```h
 // Base prototype.
 abstract class Shape is
     field X: int

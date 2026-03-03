@@ -33,7 +33,7 @@ class remains functional regardless of whatever button type it works with.
 
 ![Solution Image](./media/cross-platform-dialog.png)
 
-```html
+```h
 // our creator class declares the factory method that must return an object of the product class
 // the subclasses of the creator usually provide the implementation of this method
 class Dialog is

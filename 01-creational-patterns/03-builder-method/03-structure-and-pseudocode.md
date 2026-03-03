@@ -33,7 +33,7 @@ parts, it describes them.
 different things. We therefore can't place a method for fetching results in the director without coupling the direcotr to 
 concrete product classes. Hence, we obtain the result of the construction from the builder which performed the job.
 
-```html
+```h
 // Using the Builder pattern makes sense only when your products
 // are quite complex and require extensive configuration. The
 // following two products are related, although they don't have

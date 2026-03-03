@@ -33,7 +33,7 @@ it possible to revert an operation if needed.
   commands via the command interface.
 - This approach lets you introduce new commands into the app without breaking any existing code.
 
-```html
+```h
 // The base command class defines the common interface for all
 // concrete commands.
 abstract class Command is

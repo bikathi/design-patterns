@@ -28,7 +28,7 @@ In our example, the flyweight pattern helps reduce memory usage when rendering m
 - The client code creates new tree objects using the flyweight factory, which encapsulates the complexity of searching for
   the right object and re-using it if needed.
 
-```html
+```h
 // The flyweight class contains a portion of the state of a
 // tree. These fields store values that are unique for each
 // particular tree. For instance, you won't find here the tree
