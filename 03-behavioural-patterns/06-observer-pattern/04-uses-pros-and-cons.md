@@ -2,7 +2,7 @@
 Use the observer patten when:
 1. Changes to the state of one object may require changes to other objects, and the actual set of objects is unknown
    beforehand or changes dynamically.
-2. Some objects in your rapp must observe others but only for a limited time or in specific cases.
+2. Some objects in your app must observe others but only for a limited time or in specific cases.
 
 # Pros
 - Open/Closed principle as you can introduce new subscriber classes without having to change the publisher's code and
